@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+         .rounded-circle {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">MyProfile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#targetNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="targetNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#name" class="nav-link">My Name</a></li>
+                    <li class="nav-item"><a href="#photo" class="nav-link">My Photo</a></li>
+                    <li class="nav-item"><a href="#principles" class="nav-link">My Principles</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">My Work</a></li>
+                    <li class="nav-item"><a href="#future" class="nav-link">My Future</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center" style="animation: fadeIn 4s;">
+        <h1 style="font-size: 70px;">Who Am I?</h1>
+    </div>
+
+    <div class="container-fluid bg-light vh-100 d-flex flex-column justify-content-center align-items-center" style="animation: fadeIn 4s;" id="name">
+        <h1>My Name : Sippakon Chanpum (Nuea)</h1>
+    </div>
+
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="animation: fadeIn 4s;" id="photo">
+        <img src="https://scontent.fbkk2-4.fna.fbcdn.net/v/t1.15752-9/362969798_605062478364731_1352347069923361193_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEFTS8_ryMLuc5lqDc6oOlnGNIGcDXPK4UY0gZwNc8rhSRBw54V6FKM4AyTDrUh8pcHpX6tPdzFzblc0YhAscHI&_nc_ohc=rcG2MuztWqQAX9j9t6r&_nc_ht=scontent.fbkk2-4.fna&oh=03_AdSWfLrnrPkpeV5aXZyEYrjirKKkIYm4iIj6uRyKVxi1XA&oe=652390B3"
+            alt="" class="img-fluid rounded-circle mb-5" style="max-width: 200px;">
+
+    </div>
+
+    <div class="container-fluid bg-light vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="animation: fadeIn 4s;" id="principles">
+        <h1>My Principles</h1>
+        <h1 class="text-center fs-3">Be the change you wish to see in the world. Be the change you wish to see in the world</h1>
+    </div>
+
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="animation: fadeIn 4s;" id="work">
+        <h1>My Work</h1>
+        <img src="assests/work.png"
+            alt="" class="img-fluid mb-5" style="max-width: 800px; min-width: 20px;">
+    
+    </div>
+
+    <div class="container-fluid bg-light vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="animation: fadeIn 4s;" id="future">
+        <h1>My Future</h1>
+        <h1 class="text-center" style="color: hwb(27 0% 0%);">KMUTT</h1>
+        <p class="text-center">คณะวิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมคอมพิวเตอร์</p>
+    </div>
+
+    <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center"
+        style="animation: fadeIn 4s;" id="contact">
+        <h1>My Contact</h1>
+        <p class="fs-3 text-primary">Facebook : Sippakon Chanpum</p>
+        <p class="fs-3 text-success">Line : zazasip</p>
+        <p class="fs-3 text-warning">IG : Fly_096</p>
+    </div>
+</body>
+</html>
